@@ -144,7 +144,7 @@ in terminal
 
 > pip install sphinx-book-theme
 
-in /sphinx_test/conf.py
+in **/sphinx_test/conf.py**
 
     html_theme = 'sphinx_book_theme'
 
