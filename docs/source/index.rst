@@ -47,16 +47,4 @@ How to implement code-block
    import sys
    sys.path.insert(0, "./")
 
-You should check out the :doc:`text1` file for testing.
-
-
-
-Testing AUTODOC
-===============
-
-.. automodule:: symqc
-   :members:
-   :inherited-members:
-   :undoc-members:
-   :private-members:
-   :special-members:
+You should check out the :doc:`how_to_sphinx` file for testing.
