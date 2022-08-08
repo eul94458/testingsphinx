@@ -25,7 +25,7 @@
 
 Following the instruction given by the above link.
 
-> pip install --update sphinx
+    pip install --update sphinx
 
 Hence you should be able to call sphinx directly from the terminal.
 
@@ -34,13 +34,13 @@ Hence you should be able to call sphinx directly from the terminal.
 
 Create a new folder for tutorial
 
-> mkdir sphinx_test
+    mkdir sphinx_test
 
-> cd sphinx_test
+    cd sphinx_test
 
 Then launch the sphinx tutorial
 
-> sphinx-quickstart
+    sphinx-quickstart
 
 It should ask you some questions about the project name or version, author name etc.  Just input anything, it doesn't matter. You can change any of those afterward anyway.
 
@@ -84,7 +84,7 @@ Let's render a static html website.
 
 Type these into your terminal. Script has been written to the folder by previous `sphinx-quickstart`, so just use that.
 
-> make html
+    make html
 
 The website rendered is under **/sphinx_test/_build/html/index.html**. Open that with a browser and have a look at it.
 
@@ -95,7 +95,7 @@ It is cumbersome to rebuild the website every time you make some new arrangement
 
 First install `sphinx-autobuild`. Input below code in the terminal
 
-> pip install sphinx-autobuild
+    pip install sphinx-autobuild
 
 You see the file structure of the **/sphinx_test** directory is this. You have a bunch of source file, and you build a html webpage base on those source. So what `sphinx-autobuild` is trying to do is, keep tract of any changes happen in the source file, then re-rendered that to the webpage. Therefore we have to provide it 2 basic information
 
@@ -111,7 +111,7 @@ In our case, they are
 
 Therefore, input below code into the terminal
 
-> sphinx-autobuild  ~/sphinx_test ~/sphinx_test/_build/html
+    sphinx-autobuild  ~/sphinx_test ~/sphinx_test/_build/html
 
 There it will start a server at `http://127.0.0.1:8000`. Open a browser and put `http://127.0.0.1:8000` into the address line to check for it.
 
@@ -122,7 +122,7 @@ Sphinx do support in Markdown, however, through a extension.
 
 First you have to install the library that parse Markdown language
 
-> pip install --upgrade myst-parser
+    pip install --upgrade myst-parser
 
 Then in the **/sphinx_test/conf.py**, modify extensions entry
 
@@ -142,7 +142,7 @@ First you install the favor theme, then modify the conf.py to apply the theme. F
 
 in terminal
 
-> pip install sphinx-book-theme
+    pip install sphinx-book-theme
 
 in **/sphinx_test/conf.py**
 
