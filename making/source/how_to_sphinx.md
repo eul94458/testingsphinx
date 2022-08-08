@@ -10,6 +10,8 @@
 
 - [change theme](#change-theme)
 
+- [hosing on github pages](#hosting-on-github-pages)
+
 ## Reference
 
 - [Link to Read the Doc guide (recomended)](https://docs.readthedocs.io/en/stable/intro/getting-started-with-sphinx.html)
@@ -146,3 +148,7 @@ in /sphinx_test/conf.py
 
     html_theme = 'sphinx_book_theme'
 
+(#hosting-on-github-pages)=
+##  Hosting on Github Pages
+
+- [Link to Useful tutorial](https://dock2learn.com/tech/host-your-sphinx-documentation-on-github/)
