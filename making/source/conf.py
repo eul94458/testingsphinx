@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'n'
+project = 'test sphinx'
 copyright = '2022, n'
 author = 'n'
 
@@ -36,6 +36,7 @@ extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.githubpages',
     'sphinx.ext.napoleon'
 ]
@@ -65,7 +66,7 @@ html_theme = 'sphinx_book_theme'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['static']
+#html_static_path = ['static']
 
 
 # -- Option for autodoc ------------------------------------------------------
